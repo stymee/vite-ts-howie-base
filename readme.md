@@ -1,4 +1,6 @@
-# Vite + Typescript + Three.js
+# Vite + Typescript + RxJS
+
+Just a basic starter repo for vite + typescript + RxJS with some grid layout
 
 ## Setup
 
