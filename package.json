@@ -1,0 +1,16 @@
+{
+    "name": "vite-ts-basic",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite --port 3400",
+        "build": "vite build",
+        "serve": "vite preview"
+    },
+    "devDependencies": {
+        "typescript": "^4.2.3",
+        "vite": "^2.0.5"
+    },
+    "dependencies": {
+        "rxjs": "^7.0.0-beta.13"
+    }
+}

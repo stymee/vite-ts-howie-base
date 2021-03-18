@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite TS Howie Base</title>
+    </head>
+    <body>
+		<div class="container">
+			<header>
+				<h1>Vite TS Howie Base</h1>
+			</header>
+
+			<main>
+				content!
+			</main>
+			
+			<nav>
+				<span>Group 1:</span>
+				<button id="btnGroup1Step1" type="button" aria-label="">
+					<span>1.1. Step 1</span>
+				</button>
+				<button id="btnGroup2Step2" type="button" aria-label="">
+					<span>1.2. Step 2</span>
+				</button>
+				<hr />
+				<span>Group 2:</span>
+				<button id="btnGroup2Step1" type="button" aria-label="">
+					<span>2.1. Step 1</span>
+				</button>
+				<button id="btnGroup2Step2" type="button" aria-label="Iso View">
+					<span>2.2. Step 2</span>
+				</button>
+				<hr />
+				<span>Items:</span>
+				<hr />
+				<input id="inputFake" type="file" accept=".txt,.xyz" />
+
+			</nav>
+	
+			<section class="status">
+				<div id="txtStatus"></div>
+			</section>
+	
+			<footer>
+				<progress id="barProgress" value="0" max="100"></progress>
+				<span id="spanProgress">00%</span>
+				<span>|</span>
+				<span id="spanSize">0000 x 0000</span>
+				<span>|</span>
+				<span id="spanMouse">m 0, 0</span>
+				<span>|</span>
+			</footer>
+		</div>
+
+
+        <script type="module" src="/main.ts"></script>
+    </body>
+</html>
